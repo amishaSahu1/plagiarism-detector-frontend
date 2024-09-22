@@ -33,7 +33,7 @@ const UploadForm = () => {
     try {
       setIsLoading(true);
       const response = await axios.post(
-        "http://localhost:3008/api/v1/upload-document",
+        "https://amisha-sahu-plagiarism-detector-backend2.onrender.com/api/v1/upload-document",
         formData,
         {
           headers: {
